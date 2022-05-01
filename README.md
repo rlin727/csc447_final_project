@@ -94,3 +94,9 @@ building vocab: 1558it [00:00, 120033.17it/s]
 ```ULF_reader.ipynb``` in test folder can be used to see what each batch is through the process. 
 
 This is for testing only.
+
+# Reference
+
+* https://github.com/allenai/allennlp/blob/main/allennlp/data/data_loaders/simple_data_loader.py
+* https://zhuanlan.zhihu.com/p/352412971
+* https://jbarrow.ai/allennlp-the-hard-way-1/
