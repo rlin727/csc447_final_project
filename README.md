@@ -70,8 +70,6 @@ Used here only for testing the ULF datareader.
 # conf.jsonnet
 This is the configuration file for AllenNlp project.
 
-Note AttributeError will happen since model and trainer are set to be null here.
-
 # reader_test.ipynb
 Test for datareader
 ```
@@ -90,6 +88,9 @@ loading instances: 180it [00:00, 6921.42it/s]
 building vocab: 0it [00:00, ?it/s]
 building vocab: 1558it [00:00, 120033.17it/s]
 ```
+
+Note AttributeError will happen since model and trainer are set to be null here.
+
 # ULF_reader.ipynb
 ```ULF_reader.ipynb``` in test folder can be used to see what each batch is through the process. 
 
